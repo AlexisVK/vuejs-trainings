@@ -16,7 +16,6 @@ Vue.filter('currency', (value) => {
 })
 
 const router = new VueRouter({
-  mode: 'history',
   base: '/vuejs-trainings/',
   routes
 });
