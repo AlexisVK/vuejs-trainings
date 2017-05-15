@@ -17,8 +17,11 @@ Vue.filter('currency', (value) => {
 
 const router = new VueRouter({
   mode: 'history',
+  base: '/vuejs-trainings/',
   routes
 });
+
+router.replace({ path: '/', redirect: '/' })
 
 new Vue({
   el: '#app',
